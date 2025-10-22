@@ -6,7 +6,7 @@
     "height": 2000,
     "scrollTop": -3,
     "scrollLeft": -4,
-    "zoomLevel": 1,
+    "zoomLevel": 0.52,
     "show": 511,
     "database": 4,
     "databaseName": "",
@@ -33,7 +33,8 @@
     "tableIds": [
       "vXeJz0E5QiOeQ_7oTqPpG",
       "RNgPzwi5uqU1-G-qLJ5cq",
-      "Ld6gxa_pWWbbmaGXYnQh7"
+      "Ld6gxa_pWWbbmaGXYnQh7",
+      "7VcAoeKWa9xW2BXQZAUoN"
     ],
     "relationshipIds": [],
     "indexIds": [],
@@ -152,6 +153,43 @@
         "meta": {
           "updateAt": 1761115782666,
           "createAt": 1761115193396
+        }
+      },
+      "7VcAoeKWa9xW2BXQZAUoN": {
+        "id": "7VcAoeKWa9xW2BXQZAUoN",
+        "name": "portfolio",
+        "comment": "포트폴리오",
+        "columnIds": [
+          "sJY4XXRUcITJsfBxyjF7A",
+          "pSrdxhupSQ53vZjTHl0qt",
+          "WglJ1G5Fi6GcLvFlfqcib",
+          "boOaMBuqS542HdZYWIMME",
+          "hZWKJPUNDVICmZYyzg44R",
+          "iBLvoauPcEYl2An8QSux9",
+          "FitVKQWZH8giMEULExT5E",
+          "eFDqgLvEARWWmkXq2K8vm"
+        ],
+        "seqColumnIds": [
+          "sJY4XXRUcITJsfBxyjF7A",
+          "pSrdxhupSQ53vZjTHl0qt",
+          "WglJ1G5Fi6GcLvFlfqcib",
+          "boOaMBuqS542HdZYWIMME",
+          "hZWKJPUNDVICmZYyzg44R",
+          "iBLvoauPcEYl2An8QSux9",
+          "FitVKQWZH8giMEULExT5E",
+          "eFDqgLvEARWWmkXq2K8vm"
+        ],
+        "ui": {
+          "x": 863.6104,
+          "y": 467.912,
+          "zIndex": 30,
+          "widthName": 60,
+          "widthComment": 62,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1761123409698,
+          "createAt": 1761123087271
         }
       }
     },
@@ -654,6 +692,166 @@
         "meta": {
           "updateAt": 1761115782666,
           "createAt": 1761115782666
+        }
+      },
+      "sJY4XXRUcITJsfBxyjF7A": {
+        "id": "sJY4XXRUcITJsfBxyjF7A",
+        "tableId": "7VcAoeKWa9xW2BXQZAUoN",
+        "name": "portfolio_no",
+        "comment": "포트폴리오 번호",
+        "dataType": "INT",
+        "default": "",
+        "options": 11,
+        "ui": {
+          "keys": 1,
+          "widthName": 67,
+          "widthComment": 89,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1761123155790,
+          "createAt": 1761123106458
+        }
+      },
+      "pSrdxhupSQ53vZjTHl0qt": {
+        "id": "pSrdxhupSQ53vZjTHl0qt",
+        "tableId": "7VcAoeKWa9xW2BXQZAUoN",
+        "name": "portfolio_title",
+        "comment": "포트폴리오 제목",
+        "dataType": "VARCHAR(32)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 73,
+          "widthComment": 89,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1761123243001,
+          "createAt": 1761123152237
+        }
+      },
+      "WglJ1G5Fi6GcLvFlfqcib": {
+        "id": "WglJ1G5Fi6GcLvFlfqcib",
+        "tableId": "7VcAoeKWa9xW2BXQZAUoN",
+        "name": "portfolio_summary",
+        "comment": "포트폴리오 요약",
+        "dataType": "TEXT",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 102,
+          "widthComment": 89,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1761123329337,
+          "createAt": 1761123243001
+        }
+      },
+      "boOaMBuqS542HdZYWIMME": {
+        "id": "boOaMBuqS542HdZYWIMME",
+        "tableId": "7VcAoeKWa9xW2BXQZAUoN",
+        "name": "portfolio_contents",
+        "comment": "포트폴리오 내용",
+        "dataType": "TEXT",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 99,
+          "widthComment": 89,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1761123330890,
+          "createAt": 1761123307107
+        }
+      },
+      "hZWKJPUNDVICmZYyzg44R": {
+        "id": "hZWKJPUNDVICmZYyzg44R",
+        "tableId": "7VcAoeKWa9xW2BXQZAUoN",
+        "name": "portfolio_img_url",
+        "comment": "포트폴리오 이미지",
+        "dataType": "VARCHAR(128)",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 92,
+          "widthComment": 101,
+          "widthDataType": 81,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1761123368170,
+          "createAt": 1761123332684
+        }
+      },
+      "iBLvoauPcEYl2An8QSux9": {
+        "id": "iBLvoauPcEYl2An8QSux9",
+        "tableId": "7VcAoeKWa9xW2BXQZAUoN",
+        "name": "data_status",
+        "comment": "데이터 상태 ( Y : 사용, N : 미사용, D : 삭제)",
+        "dataType": "CHAR(1)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 62,
+          "widthComment": 226,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1761123409698,
+          "createAt": 1761123368299
+        }
+      },
+      "FitVKQWZH8giMEULExT5E": {
+        "id": "FitVKQWZH8giMEULExT5E",
+        "tableId": "7VcAoeKWa9xW2BXQZAUoN",
+        "name": "created_date",
+        "comment": "생성일",
+        "dataType": "TIMESTAMP",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 70,
+          "widthComment": 60,
+          "widthDataType": 65,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1761123409698,
+          "createAt": 1761123409698
+        }
+      },
+      "eFDqgLvEARWWmkXq2K8vm": {
+        "id": "eFDqgLvEARWWmkXq2K8vm",
+        "tableId": "7VcAoeKWa9xW2BXQZAUoN",
+        "name": "modified_date",
+        "comment": "수정일",
+        "dataType": "TIMESTAMP",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 78,
+          "widthComment": 60,
+          "widthDataType": 65,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1761123409698,
+          "createAt": 1761123409698
         }
       }
     },
