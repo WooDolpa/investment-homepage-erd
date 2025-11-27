@@ -2,9 +2,9 @@
   "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
   "version": "3.0.0",
   "settings": {
-    "width": 4000,
-    "height": 4000,
-    "scrollTop": -480.5924,
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -330.5924,
     "scrollLeft": -398.8276,
     "zoomLevel": 0.73,
     "show": 511,
@@ -212,7 +212,8 @@
           "1UL3lpcImw0YhrBKD1KDE",
           "A3v8qTzqbzDwSWakkCHcq",
           "-Cn-sU3VQQtRSXjLUh5Qo",
-          "4OnuqCjwx71_q152xhzSG"
+          "4OnuqCjwx71_q152xhzSG",
+          "tnUB8wdwiLe1wlkehOXKt"
         ],
         "ui": {
           "x": 873.3619,
@@ -223,7 +224,7 @@
           "color": ""
         },
         "meta": {
-          "updateAt": 1764242302642,
+          "updateAt": 1764242409012,
           "createAt": 1764242182775
         }
       }
@@ -916,16 +917,16 @@
         "comment": "관리자 번호",
         "dataType": "INT",
         "default": "",
-        "options": 8,
+        "options": 10,
         "ui": {
-          "keys": 2,
+          "keys": 3,
           "widthName": 60,
           "widthComment": 65,
           "widthDataType": 60,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1764242226959,
+          "updateAt": 1764242430215,
           "createAt": 1764242226959
         }
       },
@@ -936,16 +937,16 @@
         "comment": "refresh token",
         "dataType": "VARCHAR(128)",
         "default": "",
-        "options": 8,
+        "options": 10,
         "ui": {
-          "keys": 0,
+          "keys": 1,
           "widthName": 74,
           "widthComment": 72,
           "widthDataType": 81,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1764242256746,
+          "updateAt": 1764242421360,
           "createAt": 1764242235229
         }
       },
@@ -1008,12 +1009,32 @@
           "updateAt": 1764242283426,
           "createAt": 1764242283426
         }
+      },
+      "tnUB8wdwiLe1wlkehOXKt": {
+        "id": "tnUB8wdwiLe1wlkehOXKt",
+        "tableId": "2A0EEJbSMcgJQoc6cXkJj",
+        "name": "",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1764242405904,
+          "createAt": 1764242405904
+        }
       }
     },
     "relationshipEntities": {
       "wehnUB344De4yxQqHDDmF": {
         "id": "wehnUB344De4yxQqHDDmF",
-        "identification": false,
+        "identification": true,
         "relationshipType": 8,
         "startRelationshipType": 2,
         "start": {
