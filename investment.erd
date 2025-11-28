@@ -10,7 +10,7 @@
     "show": 511,
     "database": 4,
     "databaseName": "",
-    "canvasType": "@dineug/erd-editor/builtin-schema-sql",
+    "canvasType": "ERD",
     "language": 1,
     "tableNameCase": 4,
     "columnNameCase": 2,
@@ -935,7 +935,7 @@
         "tableId": "2A0EEJbSMcgJQoc6cXkJj",
         "name": "refresh_token",
         "comment": "refresh token",
-        "dataType": "VARCHAR(128)",
+        "dataType": "VARCHAR(512)",
         "default": "",
         "options": 10,
         "ui": {
@@ -946,7 +946,7 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1764242421360,
+          "updateAt": 1764290592266,
           "createAt": 1764242235229
         }
       },
