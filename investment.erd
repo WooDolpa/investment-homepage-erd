@@ -937,16 +937,16 @@
         "comment": "refresh token",
         "dataType": "VARCHAR(512)",
         "default": "",
-        "options": 10,
+        "options": 8,
         "ui": {
-          "keys": 1,
+          "keys": 0,
           "widthName": 74,
           "widthComment": 72,
           "widthDataType": 81,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1764290592266,
+          "updateAt": 1764290793341,
           "createAt": 1764242235229
         }
       },
