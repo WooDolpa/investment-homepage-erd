@@ -98,15 +98,15 @@
           "VUrum5u6RemOrun_uZ3H2"
         ],
         "ui": {
-          "x": 862.2013,
-          "y": 676.1496,
+          "x": 735.619,
+          "y": 377.4154,
           "zIndex": 18,
           "widthName": 60,
           "widthComment": 60,
           "color": ""
         },
         "meta": {
-          "updateAt": 1766322478630,
+          "updateAt": 1766324760847,
           "createAt": 1761114750488
         }
       },
@@ -180,15 +180,15 @@
           "eFDqgLvEARWWmkXq2K8vm"
         ],
         "ui": {
-          "x": 835.7163,
-          "y": 408.8095,
+          "x": 736.9821,
+          "y": 601.2145,
           "zIndex": 30,
           "widthName": 60,
           "widthComment": 60,
           "color": ""
         },
         "meta": {
-          "updateAt": 1766322476523,
+          "updateAt": 1766324765323,
           "createAt": 1761123087271
         }
       },
